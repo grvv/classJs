@@ -12,10 +12,10 @@
 // let num = 1.23;
 // let num1 = 132;
 
-let car = {
-    make: 'honda',
-    yearOfMan: 2018
-};
+// let car = {
+//     make: 'honda',
+//     yearOfMan: 2018
+// };
 
 // console.log(car.yearOfMan);
 
@@ -69,5 +69,27 @@ var str1 = 'hello';
 // console.log(typeof arr)
 // console.log(typeof obj)
 
+// Comparison operator
 
+// let abc = 'hello';
+// let abcd = 'hello';
 
+// console.log(abc == abcd);
+
+// conditional operators
+//  || , && , !
+
+// let first =  true;
+// let second =  false;
+
+// // result = first && second;
+// result = first || second;
+
+// // console.log(first && second);
+// console.log(!result);
+
+// let abc = 'hello';
+// let abcd = '';
+// let abcde = 123;
+
+// console.log(abcde || abc || abcd)
