@@ -6,8 +6,8 @@
 // var abcd = 'hello world';
 // let abcde = ' some value';
 
-// var boolValue = true  
-// var boolValue = false;  
+// var boolValue = true
+// var boolValue = false;
 
 // let num = 1.23;
 // let num1 = 132;
@@ -43,7 +43,7 @@
 
 // console.log(abc)
 
-// falsy values 
+// falsy values
 // 0, undefined, null, '', false
 // var condition = 'abcd';
 
@@ -58,7 +58,7 @@ var num1 = 123;
 
 // console.log(num1 % num2);
 
-var str1 = 'hello';
+var str1 = "hello";
 // var str2 = 'World';
 
 // console.log(str1 + ' ' +str2);
@@ -88,8 +88,44 @@ var str1 = 'hello';
 // // console.log(first && second);
 // console.log(!result);
 
-// let abc = 'hello';
-// let abcd = '';
-// let abcde = 123;
+// let abc = '';
+// let abcd = 0;
+// let abcde = false;
 
-// console.log(abcde || abc || abcd)
+// console.log((abcde || abc) || abcd);
+
+// Increment operator
+// let num = 0;
+
+// console.log(num++);
+// console.log(num--);
+
+// console.log(++num);
+// console.log(--num);
+// let fistExpression = true;
+// let condition = fistExpression ? "Hello": 'World';
+// console.log(condition);
+
+// loops
+// let line = '';
+// for (let i = 0; i < 10; i++) {
+// //   console.log(i);
+//     line += i;
+// }
+
+// console.log(line);
+// let num = 5
+
+// while (num != 10) {
+//     console.log('hello World!');
+
+//     num++
+// }
+
+// let abc = 'Hello';
+// let abcd = 'World';
+
+let firstValue = "";
+let secondValue = 0;
+
+console.log(firstValue !== secondValue);
