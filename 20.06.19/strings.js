@@ -28,4 +28,13 @@ let sentence = "The quick brown fox jumps over the lazy dog.";
 // console.log(sentence.includes("hello"));
 // console.log(sentence.lastIndexOf("brown"));
 // console.log(sentence.indexOf("brown") + 5);
-console.log(sentence.slice(0, 15));
+// console.log(sentence.slice(0, 15));
+
+// const testStr = 'hello.world.gth'
+const newStr = "         hello world           ";
+
+// console.log(sentence.split(""));
+// console.log(newStr);
+// console.log(newStr.trim());
+
+// console.log(newStr.indexOf("abcd"));
