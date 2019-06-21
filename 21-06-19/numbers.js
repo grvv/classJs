@@ -31,9 +31,14 @@
 // let randomNum = Math.random();
 // console.log(randomNum);
 
-for (let i = 0; i < 10; i++) {
-  let randomNum = Math.random();
-  let intRandmNum = parseInt(randomNum * 10) + 1;
+// for (let i = 0; i < 10; i++) {
+//   let randomNum = Math.random();
+//   let intRandmNum = parseInt(randomNum * 10) + 1;
 
-  console.log(intRandmNum);
-}
+//   console.log(intRandmNum);
+// }
+
+let abc = 12;
+let ced = 12;
+// console.log(NaN == NaN);
+// console.log(undefined == undefined);

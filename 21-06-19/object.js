@@ -92,3 +92,22 @@
 // };
 
 // obj.myMethod();
+
+let obj = {
+  prop: "value",
+  prop2: "value 2",
+  prop3: "value 3"
+};
+
+// let obj2 = obj;
+// console.log(obj == obj2);
+
+for (const prop in obj) {
+  //   if (prop == "prop2") {
+  //     break;
+  //   }
+  if (prop == "prop2") {
+    continue;
+  }
+  console.log(prop, obj[prop]);
+}
