@@ -44,12 +44,51 @@
 //   color: "red"
 // };
 
-function Car(make, YOM, color) {
-  this.make = make;
-  this.YOM = YOM;
-  this.color = color;
-}
+// function TestFn(testProp) {
+//   this.testProp = testProp;
+// }
 
-let myCar = new Car("Honda", 2018, "Blue");
+// function Car(make, YOM, color, testObj) {
+//   this.testObj = testObj;
+//   this.make = make;
+//   this.YOM = YOM;
+//   this.color = color;
+//   (this.printMake = function() {
+//     console.log(this.make);
+//   }),
+//     (this.showExp = () => console.log(this.YOM + 25));
+// }
 
-console.log(myCar);
+// let testObj = new TestFn("Hello World");
+
+// let myCar = new Car("Honda", 2018, "Blue", testObj);
+
+// console.log(myCar);
+
+// console.log();
+// myCar.showExp();
+// myCar.printMake();
+
+// console.log(myCar);
+
+// let obj = {
+//   key: "Values",
+//   subObj: {
+//     subProp: "subProp Value"
+//   },
+//   myMethod: function() {
+//     console.log("Hello World");
+//   },
+//   myArray = []
+// };
+
+// console.log(Object.keys(myCar));
+// console.log(Object.values(myCar));
+
+// let obj = {
+//   myMethod() {
+//     console.log("hello World!");
+//   }
+// };
+
+// obj.myMethod();
