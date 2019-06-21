@@ -28,6 +28,12 @@
 // console.log(Math.ceil(testNum));
 // console.log(Math.floor(testNum));
 
-let randomNum = Math.random();
+// let randomNum = Math.random();
+// console.log(randomNum);
 
-console.log(randomNum);
+for (let i = 0; i < 10; i++) {
+  let randomNum = Math.random();
+  let intRandmNum = parseInt(randomNum * 10) + 1;
+
+  console.log(intRandmNum);
+}
