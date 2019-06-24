@@ -141,5 +141,27 @@ const arr = [
     first_name: "Fraze",
     last_name: "Artinstall",
     email: "fartinstall19@sphinn.com"
-  },
+  }
 ];
+
+// console.log(
+//   arr.map((obj, index) => {
+    // const tempObj = {};
+    // tempObj['fullName'] = `${obj.first_name} ${obj.last_name}`;
+    // tempObj['index'] = index + 1;
+    // tempObj.fullName = '';
+    // tempObj.index = index + 1
+    // return tempObj
+//     return {
+//       fullName: `${obj.first_name} ${obj.last_name}`,
+//       index: index + 1
+//     };
+//   })
+// );
+
+console.log(
+  arr.map((obj, index) => ({
+    fullName: `${obj.first_name} ${obj.last_name}`,
+    index: index + 1
+  }))
+);
