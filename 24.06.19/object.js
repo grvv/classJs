@@ -26,6 +26,10 @@ let myObj = {
 
 myObj.updateNames = "John Doe";
 
-console.log(myObj);
+// console.log(myObj);
 // console.log(myObj.fullName);
 // console.log(myObj.updateName);
+
+const { name, ...newObj } = myObj;
+
+console.log(name, newObj);
