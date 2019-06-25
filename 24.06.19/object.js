@@ -24,7 +24,12 @@ let myObj = {
   }
 };
 
+const myStr = "John Doe";
 myObj.updateNames = "John Doe";
+
+
+myObj.firstName = myStr.split(' ')[0]
+myObj.lastName = myStr.split(' ')[1]
 
 // console.log(myObj);
 // console.log(myObj.fullName);
